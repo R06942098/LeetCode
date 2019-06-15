@@ -22,5 +22,5 @@ class Solution:
 						node.left = q
 						res.append(node)
 			return res
-		ans = dfs(1,n)
+		ans = dfs(1, n)
 		return ans 
